@@ -1,14 +1,35 @@
+/* General Container Styles */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-/* Your CSS Code here. */
-table{
-	border: 2px solid black;
-	width: 80vw;
+/* Heading Styles */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
 }
-th{
-	padding:10px;
-	background-color:red;
-	color:white
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
-td{
-	padding:10px;
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa;
 }
